@@ -33,14 +33,14 @@ int main(){
 #define MAX 50
 
 int main() {
-    int v=5; // Toplam düðüm sayýsý
-    int graph[MAX][MAX]; // Aðýrlýklý komþuluk matrisi
+    int v=5; // Toplam dugum sayisi
+    int graph[MAX][MAX]; //komsuluk matrisi
     int no_edge = 0;
     int selected[MAX];
     selected[0] = 1;
     int x, y;
     int i, j;
-  
+    //ornek graf
     graph[0][1] = 2;
     graph[0][2] = 0;
     graph[0][3] = 3;
@@ -52,11 +52,11 @@ int main() {
     graph[2][4] = 5;
     graph[3][4] = 0;
 /*
-    // Graf için düðüm sayýsýný al
+    // Graf iÃ§in dÃ¼Ã°Ã¼m sayisini al
     printf("Enter the number of vertices: ");
     scanf("%d", &v);
 
-    // Graf için aðýrlýklý komþuluk matrisini al
+    // Graf iÃ§in agirlikli komsuluk matrisini al
     printf("Enter the weighted adjacency matrix:\n");
     for (i = 0; i < v; i++) {
         for (j = 0; j < v; j++) {
